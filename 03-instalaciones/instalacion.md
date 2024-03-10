@@ -1,8 +1,15 @@
 # Pasos para instalar
 
-Seguir los siguientes pasos para instalar el software:
+1. Seguir los siguientes pasos para instalar el software:
 
 ´´´
-npm install
+yarn install
 
 ´´´
+
+2. Ejecutar el siguiente comando para iniciar el servidor:
+
+´´´
+yarn start
+´´´
+
