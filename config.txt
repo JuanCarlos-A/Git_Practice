@@ -1,0 +1,14 @@
+git config --global alias.lg "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
+git config --global alias.s status --short
+
+git config --global alias.s status -sb
+
+
+Cuando aparece un error aqui con el mensaje:
+
+LF will be replaced by CRLF in historia
+
+
+Debemos ejecutar este comando:
+git config core.autocrlf true
