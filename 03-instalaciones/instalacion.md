@@ -13,3 +13,7 @@ yarn install
 yarn start
 ´´´
 
+## Notas
+
+Debemos de tener en cuenta que omitiremos:
+Mode_modules
