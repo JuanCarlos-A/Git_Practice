@@ -93,3 +93,7 @@ pero no los borra del todo, permite volver a un estado anterior.
 
 git reset --hard : Este comando permite borrar los cambios realizados en el stage y en el repositorio
 pero no los borra del todo, permite volver a un estado anterior.
+
+git reflog : Este comando permite visualizar todos los cambios realizados en el repositorio, permitiendo
+visualizar los cambios realizados en el stage y en el repositorio. Nos muestra absolutamente todos los 
+cambios ya sean de commits, de reset, de checkou realizados.
