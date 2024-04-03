@@ -104,3 +104,20 @@ archivo, git lo tomara como si se hubiera borrado el archivo anterior y se hubie
 
 git rm : Este comando permite borrar un archivo del repositorio, permitiendo borrar un archivo del
 repositorio.
+
+git commit --amend : Este comando permite modificar el ultimo commit realizado, permitiendo cambiar
+el comentario del commit o agregar un archivo que se haya olvidado.
+
+git checkout -b : Este comando permite crear una nueva rama y moverse a ella, permitiendo crear una
+nueva rama y moverse a ella.
+
+git branch -d : Este comando permite borrar una rama, permitiendo borrar una rama que ya no se
+necesite.
+
+git status -s : Este comando permite visualizar el estado de los archivos de forma mas resumida,
+permitiendo visualizar los archivos que han sido modificados, los archivos que han sido agregados
+y los archivos que han sido borrados.
+
+git status -sb : Este comando permite visualizar el estado de los archivos de forma mas resumida,
+permitiendo visualizar los archivos que han sido modificados, los archivos que han sido agregados
+y los archivos que han sido borrados y ademas visualizar en que rama se encuentra.
