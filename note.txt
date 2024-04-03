@@ -121,3 +121,8 @@ y los archivos que han sido borrados.
 git status -sb : Este comando permite visualizar el estado de los archivos de forma mas resumida,
 permitiendo visualizar los archivos que han sido modificados, los archivos que han sido agregados
 y los archivos que han sido borrados y ademas visualizar en que rama se encuentra.
+
+
+archivo .gitignore : Este archivo permite especificar que archivos no se deben de tomar en cuenta
+para el control de versiones, permitiendo que git no tome en cuenta los archivos que se encuentran
+en este archivo.
