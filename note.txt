@@ -97,3 +97,10 @@ pero no los borra del todo, permite volver a un estado anterior.
 git reflog : Este comando permite visualizar todos los cambios realizados en el repositorio, permitiendo
 visualizar los cambios realizados en el stage y en el repositorio. Nos muestra absolutamente todos los 
 cambios ya sean de commits, de reset, de checkou realizados.
+
+git mv : Este comando permite mover un archivo de un directorio a otro, permitiendo cambiar la ubicacion
+de un archivo. Este comando tambien permite cambiar el nombre de un archivo. Si se cambia el nombre de un
+archivo, git lo tomara como si se hubiera borrado el archivo anterior y se hubiera creado uno nuevo.
+
+git rm : Este comando permite borrar un archivo del repositorio, permitiendo borrar un archivo del
+repositorio.
