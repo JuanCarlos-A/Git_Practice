@@ -126,3 +126,7 @@ y los archivos que han sido borrados y ademas visualizar en que rama se encuentr
 archivo .gitignore : Este archivo permite especificar que archivos no se deben de tomar en cuenta
 para el control de versiones, permitiendo que git no tome en cuenta los archivos que se encuentran
 en este archivo.
+
+git restore : Este comando permite restaurar un archivo que se haya borrado o modificado, permitiendo
+restaurar un archivo que se haya borrado o modificado. Podemos retirar un archivo del stage o 
+devolverlo a las carpertas de trabajo.
