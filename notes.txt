@@ -36,19 +36,23 @@ Git
         Dentro de la rama de funcion de help, nosotros podemos especificar en que comando necesitamos
         ayuda.
 
-    git config --global : Nos perimte hacer una configuracion dentro de las propiedades que puede
-    tener el sistema de control de versiones, podemos especificar que usuario esta relizando los
-    cambios y con que email. Estas son configuracioones globales.
+    Estos comandos son para la cnfiguracion de las caracteristicas de git, o configuracion de atributos
 
-    git config --global -e : Muesta las configuraciones registradas hasta el momento en el sistema
-    de control de veriones.
+        git config --global : Nos perimte hacer una configuracion dentro de las propiedades que puede
+        tener el sistema de control de versiones, podemos especificar que usuario esta relizando los
+        cambios y con que email. Estas son configuracioones globales.
+
+        git config --global -e : Muesta las configuraciones registradas hasta el momento en el sistema
+        de control de veriones.
 
     git reset : Este comando permite tomar un archivo en el stage y bajarlo del stage para que no reciba
     un commit e ingrese los cambios al repositorio.
 
-    git branch : Permite crear una nueva rama dentro del repositorio, una rama es un repositorio del
-    repositorio donde nosotros vamos a poder realizar cambios sin alterar el proyecto principal o
-    la rama principal.
+    Comandos para el manejo de las ramas:
+
+        git branch : Permite crear una nueva rama dentro del repositorio, una rama es un repositorio del
+        repositorio donde nosotros vamos a poder realizar cambios sin alterar el proyecto principal o
+        la rama principal.
 
     git checkout --. : Con este comando podemos retirar los ultimos cambios realizados dentro del 
     anterior commit, permitiendo volver un paso atras en el tiempo.
@@ -131,3 +135,13 @@ Git
     git restore : Este comando permite restaurar un archivo que se haya borrado o modificado, permitiendo
     restaurar un archivo que se haya borrado o modificado. Podemos retirar un archivo del stage o 
     devolverlo a las carpertas de trabajo.
+
+    Ramas en Git:
+
+        La utilidad de la rama es para poder realizar cambios al proyecto principal sin arriesgar una alteracion 
+        del proyecto que pueda deteriorarlo. Las ramas permiten realizar cambios sin alterar el proyecto principal.
+
+        Los comandos necesarios para poder trabajar con ramas son:
+
+            git branch : Este comando permite visualizar todas las ramas que se encuentran en el repositorio, 
+            tambien tiene la funcion de crear una rama nueva.
